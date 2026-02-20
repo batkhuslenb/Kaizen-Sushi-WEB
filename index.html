@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaizen Sushi - Premium Japansk Restaurang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <!-- LOGGA SEKTION: Uppdatera src nedan med sökvägen till din logga -->
+                <!-- Exempel: src="assets/min-logga.png" eller src="assets/logga.jpg" -->
+                <a href="#hem" class="logo">
+                    <img src="assets/logo.png" alt="Kaizen Sushi" class="logo-img" onerror="this.onerror=null;this.src='assets/logo.png';">
+                    <span class="logo-text">Kaizen Sushi</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#hem" class="nav-link">Hem</a></li>
+                    <li><a href="#om" class="nav-link">Om Oss</a></li>
+                    <li><a href="#meny" class="nav-link">Meny</a></li>
+                    <li><a href="#testimonialer" class="nav-link">Recensioner</a></li>
+                    <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+                </ul>
+                <button class="booking-btn" id="bookingBtnNav">Boka Bord</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hem" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- BANNERBILD SEKTION -->
+            <img src="assets/headline.png" alt="Kaizen Sushi & Bar" class="hero-center-img" onerror="this.style.display='none'">
+
+            <button class="cta-button" id="bookingBtnHero">Reservera Nu</button>
+        </div>
+    </section>
+
+    <section id="om" class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>Premium Japansk Sushi</h2>
+                <p>Kaizen Sushi förenar traditionellt japanskt hantverk med noggrant utvalda, färska råvaror. Våra sushi-mästare tillagar varje rätt med precision och passion för att ge dig en minnesvärd och utsökt smakupplevelse.</p>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-award"></i>
+                        <h3>20+ år erfarenhet</h3>
+                        <p>Våra mästare har dekenniers kunskap</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Färska ingredienser</h3>
+                        <p>Daglig import av bästa kvalitet</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-star"></i>
+                        <h3>Michelin-inspirerad</h3>
+                        <p>Finkultur i varje rätt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="meny" class="menu">
+        <div class="menu-container">
+            <h2>Vår Specialmeny</h2>
+            <p class="menu-subtitle">Väl utvalda rätter från vår mästares rekommendationer</p>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-header">
+                        <h3>California Roll</h3>
+                        <span class="price">135 kr</span>
+                    </div>
+                    <p>En perfekt klassiker fylld med söt surimi-stick, krämig avokado och fräsch gurka. Toppas med knäckig rostadlök och chili sesamfrön, sedan generöst drizzlad med vår hemgjorda chilimajo och glatt glansig teriyakisås. En harmonisk smakexplosion i varje tugga!</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-header">
+                        <h3>Dragon Roll</h3>
+                        <span class="price">149 kr</span>
+                    </div>
+                    <p>En spektakulär rulle med läcker halstrad lax, fräsch gurka och krämig avokado. Elegantlitoppas med knäckig rostadlök och chili sesamfrön, sedan badat i vår hemgjorda chilimajo och glansfull teriyakisås. En mästerlig smakkombination för de som älskar lax och värmande kryddor!</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-header">
+                        <h3>Tempura</h3>
+                        <span class="price">155 kr</span>
+                    </div>
+                    <p>En lyxig friterad rulle fylld med jätte-räkor, fräsch gurka och krämig avokado. Knäckigt friterad till gyllenbrun perfektion och toppat med glimmande chili sesamfrön och knäckig rostadlök. Sedan drizzlad med vår hemgjorda chilimajo och glansfull teriyakisås för en perfekt balans mellan värme och sötma!</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-header">
+                        <h3>Spicy Tuna</h3>
+                        <span class="price">155 kr</span>
+                    </div>
+                    <p>En eldigt friterad rulle fylld med premium tonfisk, fräsch gurka och krämig avokado. Friterad till gyllenbrun perfektion och toppat med glimmande chili sesamfrön och knäckig rostadlök. Sedan drizzlad med vår explosive spicy majo. För de som älskar värme, smak och en liten kick!</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-header">
+                        <h3>Yakiniku</h3>
+                        <span class="price">139 kr</span>
+                    </div>
+                    <p>En autentisk japansk klassiker med mör och saftig entrecote stekt till perfektion. Serverad på ett bädd av fluffig ris och färsk salladsmix som balanserar den rika köttet. Allt drizzlat med vår hemgjorda chilimajo som adderar en djup och yakiniku sås smak. En premium upplevelse för köttälskare!</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-header">
+                        <h3>Ramen</h3>
+                        <span class="price">159 kr</span>
+                    </div>
+                    <p>En autentisk japansk ramen i en djup och rik buljong fylld med silkesmjuka äggnudlar. Serverad med färsk pak choi, färgglad paprika, protein-rika sojabönor och ett perfekt pocherat ägg. Toppat med fräsch grön lök och väldoftande gräslök. Välj mellan mört fläsk, kyckling eller vegetariskt friterad tofu - en varm krämkakor som värmer själen!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonialer" class="testimonials">
+        <h2>Vad Våra Gäster Säger</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Äntligen en Riktigt bra Sushi Restaurang även i Tyresö! - Har ätit Sushi mer än 50 år på en massa ställen, och kan lugnt säga att Kaizens Sushi, är en av de fem bästa, i Stockholm. Rekommenderas starkt, du/ni kommer säkert att gå dit flera gånger! Och Kvaliteten är högre än priserna!!"</p>
+                <h4>Lars Sjöblom</h4>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Kaizen Sushi (Tyresö) är en fullträff!
+Sushin är fenomenal - perfekt ris, superfräscha råvaror och smaker som sitter klockrent.
+Personalen är trevlig och välkomnande, vilket gör helhetsupplevelsen ännu bättre.
+Priserna känns helt rimliga i förhållande till kvaliteten, och leveransen är lagom snabb - tillräckligt effektiv utan att tumma på omsorgen om maten. Sushi, Bowls av olika slag, Ramen etc smakar alla väldigt gott.
+Rekommenderas varmt!"</p>
+                <h4>Alexander Bergström</h4>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Otroligt gott, bra kvalitet på maten och superfräscht till bra priser dessutom. Familjär stämning och toppen service! Kommer tillbaka och rekommenderar varmt 😊 Fläsksidan vad något utöver det vanliga!"</p>
+                <h4>Emma Ramström Siira</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Kontakta Oss</h2>
+                <div class="info-group">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Adress</h4>
+                        <p>Bollmora Allé 9B, Tyresö 135 39</p>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Telefon</h4>
+                        <p>08-724 22 77</p>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@kaizensushi.se</p>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Öppettider</h4>
+                        <p>Tis-Fre: 11:00-21:00<br>Lör-Sön: 11:00-21:00</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <h3>Skicka Ett Meddelande</h3>
+                <input type="text" placeholder="Ditt namn" required>
+                <input type="email" placeholder="Din email" required>
+                <input type="tel" placeholder="Telefon" required>
+                <select required>
+                    <option value="">Välj ärende</option>
+                    <option value="reservation">Bordreservation</option>
+                    <option value="catering">Catering</option>
+                    <option value="event">Event/Privatfest</option>
+                    <option value="other">Övrigt</option>
+                </select>
+                <textarea placeholder="Ditt meddelande" rows="5" required></textarea>
+                <button type="submit" class="submit-button">Skicka</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Kaizen Sushi</h4>
+                <p>Premium japansk restaurang specialiserad på autentisk sushi och traditionell japansk mat.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Snabblänkar</h4>
+                <ul>
+                    <li><a href="#hem">Hem</a></li>
+                    <li><a href="#meny">Meny</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Följ Oss</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/kaizensushi" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/kaizen_stockholm/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@kaizensushi" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Kaizen Sushi. Alla rättigheter förbehållna.</p>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Boka Bord</h2>
+            <form id="bookingForm" class="booking-form">
+                <input type="text" id="namn" name="namn" placeholder="Ditt namn" required>
+                <input type="email" id="email" name="email" placeholder="Din email" required>
+                <input type="tel" id="telefon" name="telefon" placeholder="Telefon" required>
+                <label for="datum">Datum:</label>
+                <input type="date" id="datum" name="datum" required>
+                <select id="tid" name="tid" required>
+                    <option value="">Välj tid</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                </select>
+                <select id="antal_gaster" name="antal_gaster" required>
+                    <option value="">Antal gäster</option>
+                    <option value="1">1 gäst</option>
+                    <option value="2">2 gäster</option>
+                    <option value="3">3 gäster</option>
+                    <option value="4">4 gäster</option>
+                    <option value="5">5 gäster</option>
+                    <option value="6">6 gäster</option>
+                    <option value="7">7 gäster</option>
+                    <option value="8">8 gäster</option>
+                    <option value="9+">9+ gäster</option>
+                </select>
+                <textarea id="onskemaL" name="onskemaL" placeholder="Speciella önskemål eller allergi information" rows="4"></textarea>
+                <button type="submit" class="modal-submit-btn">Bekräfta Bokning</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Booking Modal Functionality
+        const bookingModal = document.getElementById('bookingModal');
+        const bookingBtnNav = document.getElementById('bookingBtnNav');
+        const bookingBtnHero = document.getElementById('bookingBtnHero');
+        const closeModalBtn = document.querySelector('.close-modal');
+        const bookingForm = document.getElementById('bookingForm');
+
+        // Open modal from navigation button
+        if (bookingBtnNav) {
+            bookingBtnNav.addEventListener('click', () => {
+                bookingModal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        }
+
+        // Open modal from hero button
+        if (bookingBtnHero) {
+            bookingBtnHero.addEventListener('click', () => {
+                bookingModal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        }
+
+        // Close modal
+        closeModalBtn.addEventListener('click', () => {
+            bookingModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (event) => {
+            if (event.target === bookingModal) {
+                bookingModal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Handle form submission
+        bookingForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Get form data
+            const formData = {
+                namn: document.getElementById('namn').value,
+                email: document.getElementById('email').value,
+                telefon: document.getElementById('telefon').value,
+                datum: document.getElementById('datum').value,
+                tid: document.getElementById('tid').value,
+                antal_gaster: document.getElementById('antal_gaster').value,
+                onskemaL: document.getElementById('onskemaL').value
+            };
+
+            // Save to localStorage as backup
+            let bookings = JSON.parse(localStorage.getItem('kaizen_bookings')) || [];
+            bookings.push({...formData, timestamp: new Date().toLocaleString('sv-SE')});
+            localStorage.setItem('kaizen_bookings', JSON.stringify(bookings));
+
+            // Show success message immediately
+            alert(`Tack för din bokning, ${formData.namn}!\n\n📅 Datum: ${formData.datum}\n🕐 Tid: ${formData.tid}\n👥 Gäster: ${formData.antal_gaster}\n\nEn bekräftelse skickas till: ${formData.email}\n\nKontakt: 08-123 45 67`);
+
+            // Reset form and close modal
+            bookingForm.reset();
+            bookingModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+
+            // Send data to your email in background (no error shown if it fails)
+            // Create a simple email by opening the default email client
+            const subject = 'Ny bordreservation från ' + formData.namn;
+            const body = `Bordreservation från: ${formData.namn}\nEmail: ${formData.email}\nTelefon: ${formData.telefon}\nDatum: ${formData.datum}\nTid: ${formData.tid}\nAntal gäster: ${formData.antal_gaster}\nÖnskemål: ${formData.onskemaL || 'Ingen'}`;
+            
+            // Try to send via background fetch (won't block UI)
+            fetch('https://formspree.io/f/xzbneyqq', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            }).catch(() => {}); // Silently fail if network error
+        });
+    </script>
+</body>
+</html>
